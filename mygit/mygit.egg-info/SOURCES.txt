@@ -1,0 +1,9 @@
+setup.py
+app/__init__.py
+app/main.py
+mygit.egg-info/PKG-INFO
+mygit.egg-info/SOURCES.txt
+mygit.egg-info/dependency_links.txt
+mygit.egg-info/entry_points.txt
+mygit.egg-info/requires.txt
+mygit.egg-info/top_level.txt
