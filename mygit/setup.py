@@ -7,6 +7,6 @@ setup(
     install_requires=["click==7.1.2"],
     entry_points='''
         [console_scripts]
-        mygit=app.main:cli
+        mygit=app.cli:cli
     '''
 )

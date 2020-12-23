@@ -1,4 +1,4 @@
 
         [console_scripts]
-        mygit=app.main:cli
+        mygit=app.cli:cli
     

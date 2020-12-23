@@ -1,6 +1,8 @@
 setup.py
 app/__init__.py
-app/main.py
+app/cli.py
+app/objects.py
+app/repository.py
 mygit.egg-info/PKG-INFO
 mygit.egg-info/SOURCES.txt
 mygit.egg-info/dependency_links.txt
