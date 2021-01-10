@@ -1,0 +1,54 @@
+<html lang="pl">
+<style>
+  .container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 10px;
+      grid-auto-rows: minmax(100px, auto);
+  }
+
+  .cow {
+      grid-column: 1;
+      grid-row: 1;
+  }
+
+  .history {
+      grid-column: 2;
+      grid-row: 1;
+  }
+
+  table, td, th {
+      border: 1px solid black;
+  }
+</style>
+
+<main>
+  <div class="container">
+    <pre class="cow">
+   <%= quote %>
+         \  ^__^
+          \ (oo)\_______
+            (__) \      )\/\
+                 ||----w |
+                 ||     ||
+    </pre>
+    <div class="history">
+      <table>
+          <tr>
+            <th>Timestamp</th>
+            <th>IP address</th>
+            <th>Generated text</th>
+          </tr>
+        <% history.each do |entry| %>
+          <tr class="history-entry">
+            <td><%= entry.when %></td>
+            <td><%= entry.ip %></td>
+            <td><%= entry.text %></td>
+          </tr>
+        <% end %>
+      </table>
+
+    </div>
+  </div>
+</main>
+</html>
