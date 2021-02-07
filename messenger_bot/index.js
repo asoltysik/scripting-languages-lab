@@ -10,7 +10,7 @@ const FB_VERIFY_TOKEN = process.env.FB_VERIFY_TOKEN;
 const FB_APP_SECRET = process.env.FB_APP_SECRET;
 const OPENWEATHER_KEY = process.env.OPENWEATHER_KEY;
 
-Weather.setApiKey("b4174c0571d83f77d2d7d814b8fd1a75");
+Weather.setApiKey(OPENWEATHER_KEY);
 
 const bot = new BootBot({
     accessToken: FB_PAGE_ACCESS_TOKEN,
