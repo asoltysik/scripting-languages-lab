@@ -1,0 +1,17 @@
+{
+  "name": "messenger_bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "messenger_bot": "index.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bootbot": "^1.1.0",
+    "weather-js": "^2.0.0",
+    "weather.js": "^0.1.0",
+    "yargs": "^16.2.0"
+  }
+}
